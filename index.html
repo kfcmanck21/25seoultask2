@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 서울교육: 창의와 상생의 미래역량 교육</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <style>
+        body {
+            font-family: 'Pretendard', sans-serif;
+            color: #1e3a8a; /* 기본 군청색 */
+        }
+        /* 스크롤바 디자인 (선택사항, 미적 요소를 위해 추가) */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0d9488; /* Teal-600 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0f766e; /* Teal-700 */
+        }
+    </style>
+</head>
+<body class="bg-sky-50">
+
+    <nav id="navbar" class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-lg transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0 flex items-center space-x-2">
+                        <span class="text-2xl">🎓</span>
+                        <span class="text-lg md:text-xl font-bold text-teal-800">창의와 상생의 미래역량교육</span>
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#policy-1" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 px-3 py-2 rounded-md text-sm font-medium">🚀 주도적 역량</a>
+                        <a href="#policy-2" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 px-3 py-2 rounded-md text-sm font-medium">🏛️ 역사교육</a>
+                        <a href="#policy-3" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 px-3 py-2 rounded-md text-sm font-medium">🎨 다양한 공교육</a>
+                        <a href="#policy-4" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 px-3 py-2 rounded-md text-sm font-medium">🌍 지속가능한 삶</a>
+                        <a href="#qna" class="text-slate-700 hover:bg-orange-100 hover:text-orange-800 px-3 py-2 rounded-md text-sm font-medium">❓ Q&A</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button id="mobile-menu-button" type="button" class="bg-teal-50 inline-flex items-center justify-center p-2 rounded-md text-teal-600 hover:text-white hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-100 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#policy-1" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 block px-3 py-2 rounded-md text-base font-medium">🚀 주도적 역량을 기르겠습니다</a>
+                <a href="#policy-2" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 block px-3 py-2 rounded-md text-base font-medium">🏛️ 미래를 준비하는 역사교육</a>
+                <a href="#policy-3" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 block px-3 py-2 rounded-md text-base font-medium">🎨 다양한 공교육</a>
+                <a href="#policy-4" class="text-slate-700 hover:bg-teal-100 hover:text-teal-800 block px-3 py-2 rounded-md text-base font-medium">🌍 지속가능한 삶을 위한 교육</a>
+                <a href="#qna" class="text-slate-700 hover:bg-orange-100 hover:text-orange-800 block px-3 py-2 rounded-md text-base font-medium">❓ Q&A</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto p-5 md:p-10">
+        
+        <header class="text-center my-12">
+            <p class="text-teal-600 font-semibold">2025 서울교육 주요 업무 설명회</p>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-800 mt-2">창의와 상생의 미래역량 교육</h1>
+            <p class="mt-4 text-lg text-slate-600">미래 사회를 이끌어갈 학생 역량 함양</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-16">
+            <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-sky-400">
+                <h2 class="text-xl font-bold text-sky-800 flex items-center"><span class="text-2xl mr-2">🎯</span>서울교육 방향</h2>
+                <p class="mt-3 text-slate-700">모든 학생이 자신만의 특별한 꿈을 실현하기 위해 다양하게 배우며 미래에 대한 희망을 품고 성장할 수 있도록 지원합니다.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-orange-400">
+                <h2 class="text-xl font-bold text-orange-800 flex items-center"><span class="text-2xl mr-2">🌱</span>교육 목표</h2>
+                <p class="mt-3 text-slate-700">학생들이 미래사회에 필요한 창의와 협력의 역량을 갖추면서 상생과 포용의 미래사회를 열어갈 주체로 성장할 수 있도록 합니다.</p>
+            </div>
+        </div>
+
+        <section id="policy-1" class="mb-16 scroll-mt-24">
+            <h2 class="text-3xl font-bold text-slate-800 border-b-4 border-teal-300 pb-2 mb-8">🚀 2-1. 미래를 위한 주도적 역량을 기르겠습니다</h2>
+            <div class="bg-teal-50 border border-teal-200 p-6 rounded-lg mb-8">
+                <p class="font-bold text-teal-800">🎯 목표: 기초소양을 바탕으로 비판적･창의적 사고력을 키우는 학생 맞춤형 교육 실현.</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-slate-700 hover:bg-slate-50">
+                        <span>수업･평가 혁신 내실화</span>
+                        <svg class="accordion-icon w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content hidden p-5 border-t border-gray-200">
+                        <ul class="space-y-3">
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>서울 학생 문해력･수리력 진단검사 시행</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>IB 프로그램 운영 및 한국형 바칼로레아(KB) 구현</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>생각하는 힘을 기르는 수업 활성화</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>미래 핵심역량을 기르는 서･논술형 평가 확대 및 AI 평가시스템 구축</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-slate-700 hover:bg-slate-50">
+                        <span>인공지능(AI)･디지털교육 활성화</span>
+                        <svg class="accordion-icon w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content hidden p-5 border-t border-gray-200">
+                         <ul class="space-y-3">
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>AI･디지털 기반 학생 개별 맞춤형 교육 활성화를 위한 디지털 선도학교 운영 (145교)</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>실습･체험 중심의 미래형 AI･정보교육 강화</span></li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-slate-700 hover:bg-slate-50">
+                        <span>디지털 시민성 교육 및 교원 역량 강화</span>
+                        <svg class="accordion-icon w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content hidden p-5 border-t border-gray-200">
+                         <ul class="space-y-3">
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>디지털 자기조절역량 함양을 위한 교육자료 개발･보급 및 프로그램 운영</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>서울형 AI 윤리 교육 활성화</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>맞춤형 교원 AI･디지털 연수 확대 (수준별 연수 단계 제공)</span></li>
+                             <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>AI･디지털 교육 전문가 교원 양성 (AI 융합교육대학원 학비 지원 등)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-slate-700 hover:bg-slate-50">
+                        <span>디지털 학습환경 조성과 행정 혁신</span>
+                        <svg class="accordion-icon w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content hidden p-5 border-t border-gray-200">
+                         <ul class="space-y-3">
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>1학생 1스마트기기 ‘디벗’ 환경 구축 및 충전보관함 전면 보급</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>서울교육 메타버스 플랫폼(메타쌤) 운영 및 인공지능 맞춤형 교수학습 플랫폼 구축</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item bg-white rounded-lg shadow-sm border border-gray-200">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5 font-semibold text-slate-700 hover:bg-slate-50">
+                        <span>수학･과학･융합･외국어･독서 교육 내실화</span>
+                        <svg class="accordion-icon w-6 h-6 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="accordion-content hidden p-5 border-t border-gray-200">
+                        <ul class="space-y-3">
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>(가칭)수학과학융합교육센터 신규 운영</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>수포자 없는 수호(數好) 교실 실현 및 서울 수학학습 메타버스 고도화</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>에듀테크 활용 영어 수업･평가 선도학교 운영 (총 60교)</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>‘AI 펭톡(초)’, ‘서울 자라나 톡(중)’ 활용 지원</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>서울형 독서･토론 기반 프로젝트 수업 및 심층 쟁점 독서･토론 프로그램 운영</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="policy-2" class="mb-16 scroll-mt-24">
+            <h2 class="text-3xl font-bold text-slate-800 border-b-4 border-sky-300 pb-2 mb-8">🏛️ 2-2. 미래를 준비하는 역사교육을 강화하겠습니다</h2>
+            <div class="bg-sky-50 border border-sky-200 p-6 rounded-lg mb-8">
+                <p class="font-bold text-sky-800">🎯 목표: 체험･실천형 프로그램을 통한 교육공동체의 역사교육 실천 역량 제고.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow">
+                 <ul class="space-y-4">
+                    <li class="flex items-start"><span class="text-xl mr-3">🧭</span><div><h3 class="font-semibold">미래지향적 역사교육 추진</h3><p class="text-slate-600 text-sm mt-1">역사교육자문단 구성･운영, 역사자료센터 구축, 포럼, 연수, 선도학교 운영</p></div></li>
+                    <li class="flex items-start"><span class="text-xl mr-3">🗺️</span><div><h3 class="font-semibold">체험･실천형 역사교육</h3><p class="text-slate-600 text-sm mt-1">교육과정 연계 역사현장 답사, 동아시아교류캠프 추진</p></div></li>
+                    <li class="flex items-start"><span class="text-xl mr-3">🇰🇷</span><div><h3 class="font-semibold">독도교육 활성화</h3><p class="text-slate-600 text-sm mt-1">학교별 독도교육 계획 수립(연 10시간 이상 권장), 독도교육주간 운영, 교원 역량 강화 지원</p></div></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="policy-3" class="mb-16 scroll-mt-24">
+            <h2 class="text-3xl font-bold text-slate-800 border-b-4 border-orange-300 pb-2 mb-8">🎨 2-3. 다양한 공교육으로 미래역량을 키우겠습니다</h2>
+            <div class="bg-orange-50 border border-orange-200 p-6 rounded-lg mb-8">
+                <p class="font-bold text-orange-800">🎯 목표: 학생들의 다양한 잠재력을 발현하고 미래를 개척하는 역량 함양.</p>
+            </div>
+             <div class="grid md:grid-cols-2 gap-6">
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                     <h3 class="font-bold text-lg text-slate-800 mb-3">학교체육 및 예술교육 활성화</h3>
+                     <ul class="space-y-2 text-sm">
+                         <li class="flex"><span class="mr-2">🏊</span><span>초등 3･4학년 생존수영 교육비 지원</span></li>
+                         <li class="flex"><span class="mr-2">⚽</span><span>1학생 1스포츠 참여 활성화 (학교스포츠클럽대회)</span></li>
+                         <li class="flex"><span class="mr-2">🎻</span><span>초등예술하나, 중학교 협력종합예술활동 내실화</span></li>
+                         <li class="flex"><span class="mr-2">🎨</span><span>악기/화방 공유 시스템 구축</span></li>
+                     </ul>
+                 </div>
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                     <h3 class="font-bold text-lg text-slate-800 mb-3">늘봄학교 확대･강화</h3>
+                     <ul class="space-y-2 text-sm">
+                         <li class="flex"><span class="mr-2">🏫</span><span>초2학년까지 늘봄프로그램 확대 운영 (606교)</span></li>
+                         <li class="flex"><span class="mr-2">🧑‍🏫</span><span>늘봄지원실장 배치 및 늘봄전담인력 역량 강화</span></li>
+                         <li class="flex"><span class="mr-2">🛠️</span><span>쾌적하고 안전한 늘봄학교 공간 구축</span></li>
+                     </ul>
+                 </div>
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                     <h3 class="font-bold text-lg text-slate-800 mb-3">맞춤형 진로･진학교육 강화</h3>
+                     <ul class="space-y-2 text-sm">
+                         <li class="flex"><span class="mr-2">🚀</span><span>창업가정신 교육 등 맞춤형 진로교육과정 지원</span></li>
+                         <li class="flex"><span class="mr-2">🏢</span><span>진로직업체험지원센터, 대학전공체험 프로그램 제공</span></li>
+                         <li class="flex"><span class="mr-2">🗺️</span><span>서울진로진학정보센터를 통한 로드맵 제공</span></li>
+                     </ul>
+                 </div>
+                 <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                     <h3 class="font-bold text-lg text-slate-800 mb-3">특성화고 및 미래형 학교 지원</h3>
+                     <ul class="space-y-2 text-sm">
+                         <li class="flex"><span class="mr-2">🔧</span><span>직업계고 학과 개편 및 재구조화 지원</span></li>
+                         <li class="flex"><span class="mr-2">💻</span><span>반도체 분야 마이스터고 신설 추진</span></li>
+                         <li class="flex"><span class="mr-2">🏙️</span><span>도시형캠퍼스 및 지역사회 공유학교 모델 운영</span></li>
+                     </ul>
+                 </div>
+            </div>
+        </section>
+
+        <section id="policy-4" class="mb-16 scroll-mt-24">
+            <h2 class="text-3xl font-bold text-slate-800 border-b-4 border-emerald-300 pb-2 mb-8">🌍 2-4. 지속가능한 삶을 위한 교육을 강화하겠습니다</h2>
+            <div class="bg-emerald-50 border border-emerald-200 p-6 rounded-lg mb-8">
+                <p class="font-bold text-emerald-800">🎯 목표: 기후위기 대응 역량을 함양하여 지속가능한 삶을 위한 생태시민 육성.</p>
+            </div>
+             <div class="bg-white p-8 rounded-lg shadow space-y-6">
+                <div>
+                    <h3 class="font-bold text-lg text-emerald-700 flex items-center mb-2"><span class="text-2xl mr-2">🌿</span>생태전환교육 강화</h3>
+                    <ul class="list-none space-y-2 pl-8">
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>교육과정 연계 생태전환교육 강화 (연 7시간 이상 권장)</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>탄소제로실천 중점학교, '서울 생태전환교육의 달' 운영</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>'흙을 밟는 도시아이들' 농촌유학 활성화</span></li>
+                    </ul>
+                </div>
+                 <div>
+                    <h3 class="font-bold text-lg text-emerald-700 flex items-center mb-2"><span class="text-2xl mr-2">🥗</span>친환경 학교급식 추진</h3>
+                    <ul class="list-none space-y-2 pl-8">
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>친환경 농산물 및 Non-GMO 식재료 구입 지원 확대</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>기후먹거리교육 확대</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-emerald-700 flex items-center mb-2"><span class="text-2xl mr-2">🌐</span>국제공동수업 및 세계시민교육 확대</h3>
+                    <ul class="list-none space-y-2 pl-8">
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>국제공동수업 참여학교 확대 (2025년 300교 목표)</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>온라인 수업 → 대면 교류 → MOU의 3단계 점층적 국제교류</span></li>
+                        <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✅</span><span>세계시민혁신미래학교 운영 및 미래지향적 통일교육 실시</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="qna" class="text-center my-20 scroll-mt-24">
+            <div class="bg-white p-10 rounded-xl shadow-lg border">
+                <h2 class="text-3xl font-bold text-slate-800">❓ 질의응답</h2>
+                <p class="text-slate-600 mt-4 text-lg">궁금한 점에 대해 답변해 드리는 시간입니다.</p>
+                <p class="mt-10 font-bold text-2xl text-teal-700">감사합니다.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-800 text-white">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>본 설명회 내용은 서울특별시교육청의 "2025 서울교육 주요업무" 문서에 기반하고 있습니다.</p>
+            <p class="mt-1 text-slate-400">Designed by Gemini for Educational Visualization</p>
+        </div>
+    </footer>
+
+    <script>
+        // 모바일 메뉴 토글
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+        mobileMenuButton.addEventListener('click', () => {
+            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+            mobileMenu.classList.toggle('hidden');
+            mobileMenuButton.querySelector('svg:first-child').classList.toggle('hidden');
+            mobileMenuButton.querySelector('svg:last-child').classList.toggle('hidden');
+        });
+
+        // 모바일 메뉴 링크 클릭 시 메뉴 닫기
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                 mobileMenuButton.setAttribute('aria-expanded', 'false');
+                 mobileMenu.classList.add('hidden');
+                 mobileMenuButton.querySelector('svg:first-child').classList.remove('hidden');
+                 mobileMenuButton.querySelector('svg:last-child').classList.add('hidden');
+            });
+        });
+
+        // 아코디언 토글
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const accordionContent = header.nextElementSibling;
+                const accordionIcon = header.querySelector('.accordion-icon');
+
+                accordionContent.classList.toggle('hidden');
+                accordionIcon.classList.toggle('rotate-180');
+
+                // 다른 아코디언 닫기 (선택사항)
+                accordionHeaders.forEach(otherHeader => {
+                    if (otherHeader !== header) {
+                        otherHeader.nextElementSibling.classList.add('hidden');
+                        otherHeader.querySelector('.accordion-icon').classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
